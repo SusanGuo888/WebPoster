@@ -1,0 +1,222 @@
+body {
+    background-color: black;
+    height: 3000px;
+}
+
+#title {
+    position: relative;
+    font-size:10px;
+    color:rgb(7, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    height:200px;
+    width:1000px;
+    background-color: greenyellow;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 30px;;
+    
+}
+
+
+
+#header-1 {
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.image {
+    position: relative;
+    height: 281px;
+    width: 500px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:-25px;
+}
+
+
+
+h2 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:60px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.OC {
+    display: flex;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 300px;
+    margin:10px;
+    color: aliceblue;
+    
+}
+
+.AD {
+    display: flex;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 300px;
+    margin:10px;
+    color: aliceblue;
+    right:20px;
+}
+
+.subtitle {
+    display: flex;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding: 30px;
+    margin:30px;
+    color: aliceblue;
+    top:480px;
+    left: 80px;
+}
+
+#intro {
+    position: relative;
+    font-size:10px;
+    color:greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    height:100px;
+    width:1000px;
+    background-color:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin:auto;
+
+    
+}
+
+#rectangle {
+    position: relative;
+    width:500p;
+    height: 200px;
+    border: 5px, dashed, greenyellow;
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    top: 180px;
+    margin:30px;
+}
+
+#resizable {
+    position:absolute;
+    width:50px;
+    height:50px;
+    background-color:greenyellow;
+    padding:10px;
+    margin: 20px;
+    top:-20px;
+    left: -20px;
+}
+
+#resizable h4 { 
+    text-align:left;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5{
+    position: relative;
+    display: flex;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding: 30px;
+    margin:30px;
+    color: aliceblue;
+    top: 200px;
+    left: 80px;
+}
+
+#rectangle-2 {
+    position: relative;
+    width:500p;
+    height: 200px;
+    border: 5px, dashed, greenyellow;
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    top: 180px;
+    margin:30px;
+}
+
+#resizable-2 {
+    position:absolute;
+    width:50px;
+    height:50px;
+    background-color:greenyellow;
+    padding:10px;
+    margin: 20px;
+    top:-20px;
+    left: -20px;
+}
+
+#resizable-2 h6 { 
+    font-size: 15px;
+    text-align:left;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+ 
+    
+
+
+
+
+
+/*.shape-1 {
+    position: relative;
+    height: 300;
+    width: 300;
+    border: 10px solid black;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    left: 50px;
+    top: 50px;
+    margin-bottom: 30px;
+   
+}
+
+/*.active{
+    background-color: red;
+    animation: change 1s ease-in-out 0s infinite normal forwards;
+
+
+}
+
+/*.shape-1:hover {
+   
+}*/
+
+/*@keyframes change {
+    0% {
+        border-radius: 50%;
+    }
+    
+    50%{
+        border-radius: 25% ;
+    }
+
+    100% {
+        border-radius: 0%;
+    }
+}
